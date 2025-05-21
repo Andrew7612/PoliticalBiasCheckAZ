@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     function grabTextFromPage() {
-        let apiKey = 'AIzaSyAWJToLVj1Squ3nxwnxB9eq8l07G41jq64';
+        let apiKey = 'key';
 
         async function getGeminiSummary(text, summaryType) {
             // Truncate very long texts to avoid API limits (typically around 30K tokens)
